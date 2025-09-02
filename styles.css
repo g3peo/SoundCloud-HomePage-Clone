@@ -538,21 +538,28 @@ input:focus {
 }
 
 
-.footer { 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    margin-top: 150px;
+}
+
+
+.footer { 
+    width: 1250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 75px;
 }
 
 .footer-parent { 
-    width: 1200px;
-    height: 50px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
@@ -566,4 +573,26 @@ input:focus {
 .footer-content a:hover {
     text-decoration: underline;
     color: rgb(72, 72, 72);
+}
+
+.language-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+span a {
+    text-decoration: none;
+    color: rgb(105, 159, 255);
+}
+
+span a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
