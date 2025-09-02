@@ -5,8 +5,17 @@
 Thumbs.db
 .DS_Store
 
-# OneDrive/Temp
+# OneDrive/Temp files
+~$*
 *.tmp
 
-# Node modules (if any)
+# Node modules (if using Node/JS)
 node_modules/
+
+# Logs
+*.log
+
+# Build/output folders
+dist/
+build/
+
