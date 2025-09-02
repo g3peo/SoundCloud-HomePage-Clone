@@ -1,0 +1,12 @@
+# VS Code settings
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# OneDrive/Temp
+*.tmp
+
+# Node modules (if any)
+node_modules/

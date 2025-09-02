@@ -1,0 +1,538 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+    height: 100vh;
+    max-height: 100vh;
+}
+/*  Navbar Styles  */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(49, 49, 49);
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.text svg {
+    margin-right: 10px;
+}
+
+.text span {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.text span a {
+    color: rgb(105, 159, 255);
+    text-decoration: none;
+}
+
+.text span a:hover {
+    text-decoration: underline;
+}
+
+.x-btn {
+    display: flex;
+    align-items: center;
+}
+
+
+/*  X button cannot change in color when hovered. Fix later.  */
+
+.x-btn:hover {
+    cursor: pointer;
+}
+
+
+
+/*  Artist profile section styles  */
+.artist {
+    width: 50%;
+    margin: auto;
+}
+
+
+.artist-profile-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.artist-profile-container img {
+    border-radius: 16px;
+}
+
+.artist-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.artist-profile-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    width: 1100px;
+}
+
+.left-ac-side {
+    display: flex;
+    align-items: center;
+}
+
+.left-ac-side p {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+.right-ac-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-ac-side button {
+    padding: 2px 16px;
+    margin: 6px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sign-in:hover {
+    color: rgb(165, 165, 165);
+}
+
+
+.create-account {
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 16px;
+    font-size: 14px;
+}
+
+.create-account:hover {
+    color: grey;
+}
+
+.right-ac-side a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin: 4px;
+}
+
+.title {
+    width: 560px;
+    display: flex; 
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subcaption {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    width: 560px;
+}
+
+.upload {
+    padding: 6px 12px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.left-footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 8px;
+}
+
+.right-footer {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.right-footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.right-footer a:hover {
+    text-decoration: underline;
+}
+
+.right-footer p {
+    margin: 3px;
+    font-size: 14px;
+}
+
+.carosel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+.carosel div {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+
+/*  Search/Upload Section */
+.search-upload {
+    width: 900px;
+    margin: auto;
+}
+
+.search-upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.or p {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.upload-section button {
+    padding: 13px 23px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+.search-bar {
+    width: 600px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 3px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar svg {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 400px;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    caret-color: rgb(255, 85, 0);
+    color: white;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.upload-section button:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+/*  Trending section styles */
+.trending {
+    margin: 30px;
+}
+
+.trending-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top h2 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.bottom button {
+    padding: 13px 23px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bottom button:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+
+/* Ad Container styles*/
+.ad-parent {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.top-ad-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.top-ad-container {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 0px 70px;
+    height: 450px;
+    width: 1100px;
+    background-color: rgb(242, 242, 242);
+}
+
+.top-ad-container img {
+    width: 625px;
+}
+
+.top-ad-content {
+    display: flex;
+    flex-direction: column;
+   
+    position: absolute;
+    width: 350px;
+    margin-top: 60px;
+}
+
+.top-ad-text {
+    color: rgb(18, 18, 18);
+}
+
+.top-ad-text p {
+    font-size: 36px;
+    width: 250px;
+    margin-bottom: 13px;
+}
+
+.top-ad-text h3 {
+    font-size: 17px;
+}
+
+.border {
+    width: 70px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #7d01a1, #f30 50%, #f50);
+}
+
+
+.bottom-ad-parent{ 
+    width: 1100px;
+    position: relative;
+}
+
+.bottom-ad-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -20px;
+}
+
+
+.bottom-ad-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 350px;
+}
+
+.bottom-ad-container img {
+    width: 1100px;
+    object-fit: cover;
+    display: block;
+}
+
+.bottom-ad-content {
+    width: 500px;
+    position: absolute;
+    bottom: 120px;   
+    left: 30px;     
+     
+}
+
+
+.bottom-ad-text h3 {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-weight: 150;
+    font-size: 36px;
+}
+
+.bottom-ad-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.bottom-ad-btn button {
+    padding: 6px 12px;
+    height: 30px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.bottom-ad-btn button:hover {
+    cursor: pointer;
+    color: transparent;
+}
+
+/*Sign-Up Section styles*/
+.sign-up {
+    margin: 80px;
+}
+
+.sign-up-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-parent h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.sign-up-parent h4 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 20px;
+}
+
+.create-accbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.create-acc {
+    padding: 13px 23px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(18, 18, 18);
+    font-size: 17px;
+}
+
+.create-acc:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.sign-up-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-footer p {
+    color: rgb(255, 255, 255);
+}
+
+.signin {
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    margin-left: 8px;
+}
+
+.signin:hover {
+    cursor: pointer;
+}
