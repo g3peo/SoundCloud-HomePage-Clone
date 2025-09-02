@@ -536,3 +536,34 @@ input:focus {
 .signin:hover {
     cursor: pointer;
 }
+
+
+.footer { 
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-parent { 
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.footer-content a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+    color: rgb(72, 72, 72);
+}
