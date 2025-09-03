@@ -3,3 +3,8 @@ In due time, I will continue to improve the structure of my code and styling. I 
 
 After the next couple basic html/css web clones I will create a basic Web Portfolio with the concepts and strategies I learned from HTML/CSS, then begin learning about JavaScript, Front-End Libraries to create more intuitive, responsive and modern web pages.
 I will also begin publishing "bigger" repositorys and projects in terms of User Accessibility and Navigation. 
+
+
+
+Demo: https://g3peo.github.io/SoundCloud-HomePage-Clone/
+Reference: https://soundcloud.com/
